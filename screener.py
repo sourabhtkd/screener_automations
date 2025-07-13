@@ -428,7 +428,7 @@ def main():
         screen_extractor.extract_screen_data(screener,extractor)
     
     # Keep browser open until user presses Enter
-    input("Press Enter to close the browser...")
+    # input("Press Enter to close the browser...")
     driver.quit()
 
 if __name__ == "__main__":
