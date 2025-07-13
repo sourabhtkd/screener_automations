@@ -419,7 +419,8 @@ def main():
     screen_extractor = ScreenerExtractor()
     driver = screen_extractor.login()
     nse_code_screens = [
-        "screens/2940605/v200-except-bank/"
+        # "screens/2940605/v200-except-bank/"
+        "screens/2940613/v200-refined/"
     ]
     for screen in nse_code_screens:
         extractor = UrlNSECodeStrategy()
